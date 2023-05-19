@@ -16,6 +16,7 @@ import { ClientLayoutComponent } from './layout/client-layout/client-layout.comp
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
 import { SubscribeToOurComponent } from './components/subscribe-to-our/subscribe-to-our.component';
+import { SignupComponent } from './pages/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { SubscribeToOurComponent } from './components/subscribe-to-our/subscribe
     NotFoundComponent,
     ProductsListComponent,
     SubscribeToOurComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,

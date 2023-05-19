@@ -1,0 +1,169 @@
+.contact-us {
+    background-color: #f7f7f7d4;
+}
+
+.contact-header {
+    padding: 50px;
+}
+
+.contact-header h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.contact-header p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6c6c6c;
+    width: 60%;
+    margin: 20px auto 50px;
+}
+
+.contact-main {
+    padding: 20px;
+}
+
+.main-one-left {
+    width: 10%;
+    text-align: center;
+    height: 20%;
+}
+
+.main-one-right {
+    width: 90%;
+}
+
+.main-one-right span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #bc9127;
+}
+
+.main-one-right h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #6c6c6c;
+}
+
+.main-one-right p {
+    font-size: 1rem;
+    width: 70%;
+    color: #6c6c6c;
+}
+
+.left-icon {
+    width: 30%;
+}
+
+.md-text {
+    width: 50%;
+}
+
+.md-text .icon-text {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #000;
+    padding-top: 5px;
+}
+
+.main-one-right .icon-one {
+    width: 15%;
+}
+
+.main-one-right .icon-two {
+    width: 10%;
+}
+
+.two-left-icon {
+    width: 10%;
+}
+
+.curent {
+    border-bottom: 1px solid #adacacb5;
+    margin: 0px 0px 20px 0px;
+}
+
+.curent span {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #bc9127;
+}
+
+.curent p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #6c6c6c;
+}
+
+.contact-fotter iframe {
+    width: 100%;
+    height: 479px;
+}
+
+.contact-fotter-map {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-fotter {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.contact-fotter .send-us {
+    background: #ffff;
+    padding: 50px;
+    z-index: 50px;
+}
+
+.form-send-us {
+    margin-top: 30px;
+}
+
+.contact-fotter h2 {
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.contact-fotter input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #999999;
+}
+
+.contact-fotter textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #999999;
+}
+
+.send-us label {
+    font-size: 1.1rem;
+    color: #575757;
+    font-weight: 700;
+    width: 100%;
+    padding: 5px;
+}
+
+.input-form-send-us {
+    padding: 7px;
+}
+
+.input-form-send-us button {
+    background-color: #edb932;
+    border: 0px;
+    border-radius: 3px;
+    width: 30%;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.input-form-send-us button:hover {
+    color: #f5f2f2;
+}

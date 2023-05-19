@@ -1,0 +1,147 @@
+.header {
+    background-color: #fafafa;
+    padding: 80px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.text {
+    color: #54595F;
+    font-size: 1.1rem;
+    width: 60%;
+    margin: 20px auto 50px;
+}
+
+@media (max-width: 768px) {
+    .about_header_left img {
+        width: 100% !important;
+
+    }
+
+    .about_header_right img {
+        width: 100% !important;
+
+    }
+
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+.about_header_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_header_right p {
+    color: #6c6c6c;
+    font-size: 17px;
+    font-weight: 500;
+    width: 82%;
+    padding: 20px 0;
+}
+
+.about_header_right h6 {
+    color: #6c6c6c;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.about_header_right span {
+    color: #6c6c6c;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.history {
+    background-image: linear-gradient(to right, #0a0a0a75, #0a0a0a75), url(../../../assets/about-furniture-store-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center top;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    position: relative;
+    margin: 50px 0 100px;
+
+}
+
+.history_item {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #fafafa;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.about_history p {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #6c6c6c;
+    padding: 10px;
+}
+
+.about_history span {
+    color: #6c6c6c;
+}
+
+.about_text .text_one {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #6c6c6c;
+}
+
+.about_text .text_tow p {
+    width: 80%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #6c6c6cf4;
+}
+
+.about_fine {
+    margin-top: 90px;
+}
+
+.about_fine h1 {
+    font-weight: 700;
+}
+
+.about_fine .texts {
+    color: #6c6c6cf4;
+    margin-top: 30px;
+}
+
+.about_row_one {
+    width: 6%;
+}
+
+.about_row_two {
+    width: 90%;
+}
+
+.about_row_two h6 {
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.about_row_two p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6c6c6cf4;
+    width: 100%;
+    padding-top: -10px;
+}
+
+.about_fine_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

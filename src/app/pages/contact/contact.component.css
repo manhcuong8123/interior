@@ -77,7 +77,10 @@
 }
 
 .two-left-icon {
-    width: 10%;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .curent {
@@ -95,6 +98,7 @@
     font-size: 1.1rem;
     font-weight: 700;
     color: #6c6c6c;
+    width: 100%;
 }
 
 .contact-fotter iframe {

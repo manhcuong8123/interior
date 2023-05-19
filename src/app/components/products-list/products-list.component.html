@@ -1,0 +1,12 @@
+<div class="list-products">
+    <div class="row" *ngIf="products && products.length >0">
+        <div class="col-md-4 col-lg-3 col-sm-6 col-12 item-products" *ngFor="let product of products">
+            <img width="100%" src="{{product.img}}" alt="">
+            <p class="category-title">
+                {{product.category}}
+            </p>
+            <p class="name-products">{{product.name}}</p>
+            <p class="price-products"><del>${{product.price}}</del>${{product.priceOriginal}}</p>
+        </div>
+    </div>
+</div>

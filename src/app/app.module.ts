@@ -14,6 +14,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 import { ClientLayoutComponent } from './layout/client-layout/client-layout.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ProductsListComponent } from './components/products-list/products-list.component';
 import { SubscribeToOurComponent } from './components/subscribe-to-our/subscribe-to-our.component';
 
 @NgModule({
@@ -30,6 +31,7 @@ import { SubscribeToOurComponent } from './components/subscribe-to-our/subscribe
     AdminLayoutComponent,
     ClientLayoutComponent,
     NotFoundComponent,
+    ProductsListComponent,
     SubscribeToOurComponent,
   ],
   imports: [

@@ -1,0 +1,185 @@
+.conllection-homePage{
+    margin-top: 100px;
+}
+.title-and-style{
+    color: #bf8a04;
+    margin-top: 20px;
+    position: relative;
+}
+.title-and-style::before{
+    position: absolute;
+    bottom: -10px;
+    width: 50px;
+    height: 1px;
+    background-color: #bf8a04;
+    content: "";
+}
+.text-collection h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 50px 0 20px 20px ;
+}
+.text-collection :nth-child(3){
+    margin: 20px 0 20px 20px ;
+}
+.text-collection button{
+    background-image: linear-gradient(to right, #f5ce62, #df8d08, #fa7199, #e85a19);
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin: 20px;
+    padding: 10px 20px;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.text-collection button:hover{
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+/* ==========background ======== */
+.category-room-list{
+    margin-top: 100px;
+}
+.bg-category-room1,.bg-category-room2,.bg-category-room3,.bg-category-room4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; 
+    overflow: hidden;
+    padding: 420px  40px 40px ;
+    transition: .2s linear;
+}
+.bg-category-room1:hover,
+.bg-category-room2:hover,
+.bg-category-room3:hover,
+.bg-category-room4:hover{
+    opacity: 0.8;
+    transition: .2s linear;
+}
+    
+.bg-category-room1{
+    background-image: linear-gradient(to right,#000000a1,#000000a1),url(../../../assets/living-room-bg.jpg);
+    
+}
+.bg-category-room2{
+    background-image: linear-gradient(to right,#000000a1,#000000a1),url(../../../assets/bedroom-bg.jpg);
+   
+}
+.bg-category-room3{
+    background-image: linear-gradient(to right,#000000a1,#000000a1),url(../../../assets/kitchen-bg.jpg);
+    
+}
+.bg-category-room4{
+    background-image: linear-gradient(to right,#000000a1,#000000a1),url(../../../assets/bath-room-bg.jpg);
+   
+}
+.link-category-home{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+
+}
+/* ==============list products=============== */
+.list-products{
+    margin-top: 100px;
+}
+.item-products{
+    text-align: center;
+    transition: .2s linear;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item-products:hover{
+    box-shadow: 1px 0px 10px #4040403d;
+    transition: .1s linear;
+}
+.name-products{
+    color: #bf8a04;
+}
+.category-title,.price-products{
+    color: #8f8f8f;
+}
+.price-products del{
+    color: #8f8f8f;
+    margin-right: 20px;
+}
+/* ============best seller============ */
+.right-best-seller{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.right-best-seller a button {
+    background-color: #fea414;
+}
+.right-best-seller a :hover{
+    color: #000;
+}
+.sale-of-homePage{
+    background-image: url(../../../assets/promo-banner-img.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 72% auto;
+}
+.left-text-sale-of{
+    background-color: #fff;
+    margin: 100px 0;
+    box-shadow: 5px 0px 10px #767676;
+    border-radius: 5px;
+    padding: 50px;
+}
+.left-text-sale-of h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 0px 0 10px;
+}
+.left-text-sale-of button{
+    background-color: #df8d08;
+    margin-top: 20px;
+    padding: 6px 6px 6px 15px ;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+@media (max-width:850px) {
+    .sale-of-homePage{
+        margin-top: 300px;
+    background-size: 100% auto;
+    height: 50vh;
+
+    }
+    .left-text-sale-of{
+        margin-top: -150px;
+    }
+} 
+.left-text-sale-of button i{
+    opacity: 0;
+    transition: .2s linear;
+}
+.left-text-sale-of button:hover {
+    transition: .2s linear;
+    padding: 6px 20px 6px 10px;
+}
+.left-text-sale-of button:hover i{
+    transition: .2s linear;
+    opacity: 1;
+}
+.item-text-testmonials{
+    margin: 50px 0;
+}
+.item-text-testmonials img{
+    border-radius: 50%;
+}
+.name-user-test{
+    font-weight: bolder;
+}
+.item-why-choese{
+    padding: 50px 20px 20px;
+}
+.item-why-choese :nth-child(2){
+    font-weight: bolder;
+}

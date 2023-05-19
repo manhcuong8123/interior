@@ -15,6 +15,7 @@ import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.compone
 import { ClientLayoutComponent } from './layout/client-layout/client-layout.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
+import { SubscribeToOurComponent } from './components/subscribe-to-our/subscribe-to-our.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ProductsListComponent } from './components/products-list/products-list.
     ClientLayoutComponent,
     NotFoundComponent,
     ProductsListComponent,
+    SubscribeToOurComponent,
   ],
   imports: [
     BrowserModule,

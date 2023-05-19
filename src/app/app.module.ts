@@ -14,6 +14,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 import { ClientLayoutComponent } from './layout/client-layout/client-layout.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ProductsListComponent } from './components/products-list/products-list.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     AdminLayoutComponent,
     ClientLayoutComponent,
     NotFoundComponent,
+    ProductsListComponent,
   ],
   imports: [
     BrowserModule,

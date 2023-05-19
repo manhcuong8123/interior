@@ -6,6 +6,7 @@
     background-position: 50% 50%; 
     overflow: hidden;
 }
+
 .border-header-homePage{
     padding: 0 0 10px 0;
     border-bottom: 1px solid #ffffff3d;
@@ -55,10 +56,12 @@
 .text-banner-homePage :nth-child(3){
     color: #fff;
     width: 50%;
+   
 }
 .text-banner-homePage :nth-child(4){
     background-color: #edb932;
     margin: 20px 0 ;
+    cursor: url(../../../assets/cusor.png) auto;
 }
 @media (max-width:786px) {
     .text-banner-homePage :nth-child(3){

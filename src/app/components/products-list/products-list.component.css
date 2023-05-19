@@ -1,0 +1,23 @@
+.list-products{
+    margin-top: 100px;
+}
+.item-products{
+    text-align: center;
+    transition: .2s linear;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item-products:hover{
+    box-shadow: 1px 0px 10px #4040403d;
+    transition: .1s linear;
+}
+.name-products{
+    color: #bf8a04;
+}
+.category-title,.price-products{
+    color: #8f8f8f;
+}
+.price-products del{
+    color: #8f8f8f;
+    margin-right: 20px;
+}

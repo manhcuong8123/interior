@@ -17,26 +17,29 @@
     width: 70%;
     font-weight: 700;
 }
-.test-form{
+
+.test-form {
     display: flex;
     align-items: center;
     margin-top: 50px;
 }
-.test-form input{
+
+.test-form input {
     outline: none;
     padding: 10px;
     margin-right: 20px;
     width: 80%;
     border-radius: 10px;
-    
+
 }
-.test-form button{
+
+.test-form button {
     padding: 10px 20px;
     background-color: #bc9127;
     transition: .2s linear infinite;
 }
 
-<<<<<<< HEAD
+
 .about_end .about_end_two button {
     height: 40px;
     font-weight: 700;
@@ -45,8 +48,7 @@
     margin-left: 10px;
     border-radius: 3px;
 }
-=======
->>>>>>> a2acd1e55358813379d49a4b5be06d0798c830cf
+
 
 .about_end .about_end_two button:hover {
     color: #e9e6e0;

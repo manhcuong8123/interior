@@ -1,20 +1,19 @@
 .title {
     position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    padding-left: 170px;
+    padding-left: 150px;
 }
 
 .title h2 {
-    text-align: center;
     position: absolute;
     color: #fff;
     transform: translate(-50%, -50%);
     font-size: 2.9rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .title h2:nth-child(1) {
@@ -39,14 +38,32 @@
     }
 }
 
-.signup {
+.signin {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.form-sign {
-    margin: 10px;
+.pass-up {
+    padding-left: 30px;
+    width: 100%;
+}
+
+.pass-up-forgot {
+    display: flex;
+    justify-content: center;
+}
+
+.pass-up-register {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-icon {
+
+    border: 1px solid #ffff;
+    border-radius: 100%;
+    padding: 5px;
 }
 
 .form-icon {
@@ -56,4 +73,27 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.btn-icon:hover {
+    background-color: #dbceaf;
+    transition: 1s;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
 }

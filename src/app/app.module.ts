@@ -16,6 +16,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
 import { SubscribeToOurComponent } from './components/subscribe-to-our/subscribe-to-our.component';
 import { SignupComponent } from './pages/signup/signup.component';
+import { SigninComponent } from './pages/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { SignupComponent } from './pages/signup/signup.component';
     ProductsListComponent,
     SubscribeToOurComponent,
     SignupComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,

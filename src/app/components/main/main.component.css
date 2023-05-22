@@ -108,6 +108,13 @@
     color: #8f8f8f;
     margin-right: 20px;
 }
+.item-products img{
+    transition: .2s linear;
+}
+.item-products:hover img{
+    transform: scale(1.2);
+    transition: .2s linear;
+}
 /* ============best seller============ */
 .right-best-seller{
     display: flex;
@@ -156,6 +163,17 @@
         margin-top: -150px;
     }
 } 
+@media (max-width:640px) {
+    .sale-of-homePage{
+        margin-top: 300px;
+    background-size: 100% auto;
+    height: 50vh;
+
+    }
+    .left-text-sale-of{
+        margin-top: -280px;
+    }
+}
 .left-text-sale-of button i{
     opacity: 0;
     transition: .2s linear;

@@ -1,1 +1,87 @@
-<p>products works!</p>
+<div class="body-products-page">
+  <div class="container products-page">
+    <p-sidebar class="sidebar-left" [(visible)]="sidebarVisible">
+      <!-- =========header======== -->
+      <ng-template class="searh-products-page" pTemplate="header">
+        <input type="text" [(ngModel)]="searchTerm" placeholder="Enter product name">
+        <button type="button" class="btn-serach-products" (click)="searchProducts()">Search</button>
+      </ng-template>
+      <!-- =========body========= -->
+      <ng-template pTemplate="content">
+        <p>Filter by price</p>
+        <div class="card flex justify-content-center">
+          <div>
+            <p-slider [(ngModel)]="priceRange" [(ngModel)]="value" [min]="minPrice" [max]="maxPrice" (onChange)="filterByPrice()"></p-slider>
+            <div class="price-filter-products">
+              <span>Price : </span>
+              <span>$</span><input [(ngModel)]="value" class="w-full custom-input" />
+            </div>
+            <div class="list-category">
+              <h3>Product categories</h3>
+              <div class="item-list-category">
+                <a routerLink="/page/products">Bathroom</a>
+                <p>(4)</p>
+              </div>
+              <div class="item-list-category">
+                <a routerLink="/page/products">Bedroom</a>
+                <p>(4)</p>
+              </div>
+              <div class="item-list-category">
+                <a routerLink="/page/products">Chair</a>
+                <p>(4)</p>
+              </div>
+              <div class="item-list-category">
+                <a routerLink="/page/products">Sofa</a>
+                <p>(4)</p>
+              </div>
+              <div class="item-list-category">
+                <a routerLink="/page/products">Kitchen</a>
+                <p>(4)</p>
+              </div>
+              <div class="item-list-category">
+                <a routerLink="/page/products">Stool</a>
+                <p>(4)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="list-category-products">
+
+        </div>
+
+      </ng-template>
+      <!-- ========footer======== -->
+      <ng-template pTemplate="footer">
+        <a class="footer-sidebar" href="http://mcuong.vercel.app" target="_blank">My Portfolio</a>
+      </ng-template>
+    </p-sidebar>
+
+    <div class="list-products">
+      <div class="option-list-products">
+        <p-button class="custom-button" (click)="sidebarVisible = true"><span>OPTION</span> <i
+            class='bx bx-menu-alt-left'></i></p-button>
+        <p>Showing 1–12 of 18 results</p>
+      </div>
+      <div class="list-products">
+        <div class="row" *ngIf="filteredProducts && filteredProducts.length > 0">
+          <div class="col-md-4 col-lg-3 col-sm-6 col-6 item-products" *ngFor="let product of filteredProducts">
+            <a routerLink="">
+              <img width="100%" src="{{product.img}}" alt="">
+            <p class="category-title">
+              {{product.category}}
+            </p>
+            <p class="name-products">{{product.name}}</p>
+            <p class="price-products"><del>${{product.price}}</del>${{product.priceOriginal}}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+

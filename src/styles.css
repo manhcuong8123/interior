@@ -1,10 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-::selection{
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+
+::selection {
     background-color: #EDB932;
     color: #000;
 }
-.style-all{
+
+.style-all {
     width: 50px;
     height: 1px;
     background-color: #EDB932;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

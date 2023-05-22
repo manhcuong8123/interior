@@ -16,12 +16,15 @@ import { ClientLayoutComponent } from './layout/client-layout/client-layout.comp
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
 import { SubscribeToOurComponent } from './components/subscribe-to-our/subscribe-to-our.component';
+import { SignupComponent } from './pages/signup/signup.component';
+import { SigninComponent } from './pages/signin/signin.component';
 import { SidebarModule } from 'primeng/sidebar';
 import { ToggleButtonModule } from 'primeng/togglebutton';
 import { ButtonModule } from 'primeng/button';
 import { TreeSelectModule } from 'primeng/treeselect';
 import { SliderModule } from 'primeng/slider';
 import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +41,8 @@ import { FormsModule } from '@angular/forms';
     NotFoundComponent,
     ProductsListComponent,
     SubscribeToOurComponent,
+    SignupComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,

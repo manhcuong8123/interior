@@ -1,11 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
-::selection{
+
+
+::selection {
     background-color: #EDB932;
     color: #000;
 }
-.style-all{
+
+.style-all {
     width: 50px;
     height: 1px;
     background-color: #EDB932;

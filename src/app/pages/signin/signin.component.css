@@ -1,0 +1,99 @@
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+.title h2 {
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-size: 2.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #707274;
+}
+
+.title h2:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(31% 54%, 48% 61%, 68% 63%, 82% 59%, 100% 51%, 100% 99%, 0 100%, 0 46%, 14% 46%);
+    }
+
+    50% {
+        clip-path: polygon(33% 71%, 49% 66%, 65% 56%, 80% 53%, 100% 54%, 100% 99%, 0 100%, 0 61%, 17% 68%);
+    }
+}
+
+.signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass-up {
+    padding-left: 30px;
+    width: 100%;
+}
+
+.pass-up-forgot {
+    display: flex;
+    justify-content: center;
+}
+
+.pass-up-register {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-icon {
+
+    border: 1px solid #ffff;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.form-icon {
+    height: 70%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-icon:hover {
+    background-color: #dbceaf;
+    transition: 1s;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}

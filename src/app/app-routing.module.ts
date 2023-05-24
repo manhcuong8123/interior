@@ -9,6 +9,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { SigninComponent } from './pages/signin/signin.component';
 import { DetailProductsComponent } from './pages/detail-products/detail-products.component';
+import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -27,6 +28,7 @@ const routes: Routes = [
       { path: 'contact', component: ContactComponent },
     ]
   },
+  {path: 'admin', component: AdminLayoutComponent},
   { path: '**', component: NotFoundComponent }
 
 ];

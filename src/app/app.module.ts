@@ -25,7 +25,12 @@ import { ButtonModule } from 'primeng/button';
 import { TreeSelectModule } from 'primeng/treeselect';
 import { SliderModule } from 'primeng/slider';
 import { FormsModule } from '@angular/forms';
-
+import { DetailProductsComponent } from './pages/detail-products/detail-products.component';
+import { InputNumberModule } from 'primeng/inputnumber';
+import { PaginatorModule } from 'primeng/paginator';
+import { TabViewModule } from 'primeng/tabview';
+import { RatingModule } from 'primeng/rating';
+import { InputTextModule } from 'primeng/inputtext';
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +49,7 @@ import { FormsModule } from '@angular/forms';
     SubscribeToOurComponent,
     SignupComponent,
     SigninComponent,
+    DetailProductsComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,7 +61,12 @@ import { FormsModule } from '@angular/forms';
     ButtonModule,
     TreeSelectModule,
     SliderModule,
-    FormsModule
+    FormsModule,
+    InputNumberModule,
+    PaginatorModule,
+    TabViewModule,
+    RatingModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -44,12 +44,16 @@ export class ProductsComponent {
   maxPrice: number;
   priceRange: number = 100;
   value: number = 100;
+  first: number = 0;
+
+    rows: number = 10;
+
+    onPageChange(event:any) {
+        this.first = event.first;
+        this.rows = event.rows;
+    }
 
 
-  pageSize: number = 12; // Số sản phẩm hiển thị trên mỗi trang
-  currentPage: number = 1; // Trang hiện tại
-  totalItems: number = 0; // Tổng số sản phẩm
-  totalPages: number = 0; // Tổng số trang
   searchTerm: string = '';
 
 
@@ -78,7 +82,7 @@ export class ProductsComponent {
 
 
   searchProducts() {
-    this.currentPage = 1;// 
+    // this.currentPage = 1;// 
 
     if (this.searchTerm || this.priceRange) {
       this.filteredProducts = this.originalProducts.filter(product => {

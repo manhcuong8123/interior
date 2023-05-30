@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header-page.component.css']
 })
 export class HeaderPageComponent {
-
+  sidebarVisible: boolean=false;
+  value3: number = 1;
 }

@@ -24,9 +24,10 @@
                 <li class="nav-item">
                   <a class="nav-link nav-link-spaced" aria-current="page" routerLink="/page/contact">Contact Us</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" routerLink="#"><span class="cart-header"><i
-                        class='bx bxs-cart-alt'></i></span></a>
+                <li class="nav-item cart-menu-header">
+                  <p-button (click)="sidebarVisible = true" icon="pi pi-arrow-right">
+                    <span class="cart-header"><i style="color:#000" class='bx bxs-cart-alt'></i></span>
+                  </p-button>
                 </li>
               </ul>
   
@@ -36,3 +37,51 @@
       </div>
     </div>
     
+
+    
+  <p-sidebar [(visible)]="sidebarVisible" class="cart-header-right" position="right">
+    <h1>Shopping Cart</h1>
+    <div class="products-cart">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="../../../assets/new-collection-furniture-img.jpg" width="100%" alt="">
+        </div>
+        <div class="col-md-7">
+          <div class="flex-auto">
+            <label class="mb-2 block font-bold" for="horizontal">Name Products</label>
+            <p-inputNumber
+                [(ngModel)]="value3"
+                [showButtons]="true"
+                buttonLayout="horizontal"
+                inputId="horizontal"
+                spinnerMode="horizontal"
+                [step]="1"
+                [min]="0"
+                decrementButtonClass="p-button-custom"
+                incrementButtonClass="p-button-custom"
+                incrementButtonIcon="bx bx-plus"
+                decrementButtonIcon="bx bx-minus"
+            ></p-inputNumber>
+        </div>
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-circle-border"><i class="bx bx-x"></i></button>
+        <p>100.00$</p>
+        </div>
+      </div>
+    </div>
+    <ng-template pTemplate="footer">
+      <div class="total-cart">
+        <h3>Subtotal:</h3>
+        <p>100.00$</p>
+      </div>
+      <p class="btn-footer-cart">
+        <a routerLink="/page/cart"> <button class="btn">VIEW CART</button></a>
+
+      </p>
+      <p class="btn-footer-cart">
+        <a routerLink=""> <button class="btn">CHECKOUT</button></a>
+
+      </p>
+    </ng-template>
+  </p-sidebar>

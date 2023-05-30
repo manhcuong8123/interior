@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -44,6 +45,7 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
 import { DropdownModule } from 'primeng/dropdown';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { DialogModule } from 'primeng/dialog';
+import { CartComponent } from './pages/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -64,10 +66,12 @@ import { DialogModule } from 'primeng/dialog';
     SignupComponent,
     SigninComponent,
     DetailProductsComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     SidebarModule,
     ToggleButtonModule,
@@ -94,6 +98,6 @@ import { DialogModule } from 'primeng/dialog';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule  {
+export class AppModule {
 
- }
+}

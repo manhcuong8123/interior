@@ -3,8 +3,8 @@
     <p-sidebar class="sidebar-left" [(visible)]="sidebarVisible">
       <!-- =========header======== -->
       <ng-template class="searh-products-page" pTemplate="header">
-        <input type="text" [(ngModel)]="searchTerm"  placeholder="Enter product name">
-        <button type="button" class="btn-serach-products"  (click)="searchProducts()">Search</button>
+        <input type="text" [(ngModel)]="searchTerm" (input)="searchProducts()" placeholder="Enter product name">
+        <button type="button" class="btn-serach-products"  >Search</button>
       </ng-template>
       <!-- =========body========= -->
       <ng-template pTemplate="content">

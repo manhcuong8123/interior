@@ -1,23 +1,24 @@
 <div class="product-detail-page">
     <div class="container product-detail">
-        <div class="row" *ngIf="product && product.length > 0">
-            <div class="col-md-6 img-product-detail" *ngFor="let product of product">
-                <img src="{{product.img}}" width="100%" class="text-center" alt="">
+        <div class="row">
+            <div class="col-md-6 img-product-detail">
+                <img *ngIf="product" src="{{product.img}}" width="100%" class="text-center" alt="">
             </div>
 
-            <div class="col-md-6" *ngFor="let product of product">
+            <div class="col-md-6">
                 <div class="item-product-detail">
-                    <h2>{{product.name}}</h2>
-                    <p><del>{{product.price}}.00 $</del> <span>{{product.priceOriginal}}.00 $</span></p>
-                    <p>{{product.title}}</p>
+                    <h2 *ngIf="product">{{product.name}}</h2>
+                    <p *ngIf="product"><del>{{product.price}} .00 $</del> <span>{{product.priceOriginal}}.00 $</span>
+                    </p>
+                    <p *ngIf="product">{{product.title}}</p>
                     <div class="flex-auto">
                         <label class="mb-2 block font-bold" for="minmax-buttons">Quantity </label>
-                        <p-inputNumber [(ngModel)]="value2" mode="decimal" [min]="0" [showButtons]="true"
+                        <p-inputNumber [(ngModel)]="value2" mode="decimal" [min]="0" [max]="10" [showButtons]="true"
                             inputId="minmax-buttons" styleClass="custom-inputNumber"></p-inputNumber>
                     </div>
                     <button class="btn btn-add-detailPage">ADD TO CART</button>
                     <hr>
-                    <p>Category : <span>{{product.category}}</span></p>
+                    <p>Category : <span *ngIf="product">{{product.category}}</span></p>
                 </div>
             </div>
         </div>

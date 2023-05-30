@@ -1,0 +1,59 @@
+.title-cart{
+    font-weight: bolder;
+    margin: 20px 0;
+}
+.cartPage{
+    background-color: #f9f8f8;
+    padding-top: 50px;
+}
+.detail-cart-page{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-circle-border{
+    border: 1px solid #edb932;
+    border-radius: 50%;
+    padding: 5px;
+    color: #f4b004;
+    margin-bottom: 10px;
+}
+.table-product td,
+.table-product tr{
+    padding: 20px 0 ;
+}
+.table-product thead{
+    background-color: #e3e3e3;
+}
+::ng-deep .p-inputnumber-button {
+    background-color: #edb932;
+    color: #000;
+    border: none;
+}
+.text-right-cart-total{
+    padding: 15px;
+    border: 1px solid #e3e3e3; 
+    margin: -16px 0 50px;
+
+}
+.right-cart-total h1{
+    background-color: #e3e3e3;
+    padding: 3px 15px;
+    font-weight: bold;
+}
+.item-cart-total{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e3e3e3;
+}
+.text-right-cart-total >p{
+    margin-top: 10px;
+}
+.text-right-cart-total a button {
+    background-color: #edb932;
+    padding: 10px 20px ;
+    margin: 20px 0;
+    width: 100%;
+}

@@ -31,6 +31,22 @@ import { PaginatorModule } from 'primeng/paginator';
 import { TabViewModule } from 'primeng/tabview';
 import { RatingModule } from 'primeng/rating';
 import { InputTextModule } from 'primeng/inputtext';
+
+
+
+import { CommonModule } from '@angular/common';
+// import { CrudComponent } from './crud.component';
+import { TableModule } from 'primeng/table';
+import { FileUploadModule } from 'primeng/fileupload';
+import { RippleModule } from 'primeng/ripple';
+import { ToastModule } from 'primeng/toast';
+import { ToolbarModule } from 'primeng/toolbar';
+import { InputTextareaModule } from 'primeng/inputtextarea';
+import { DropdownModule } from 'primeng/dropdown';
+import { RadioButtonModule } from 'primeng/radiobutton';
+import { DialogModule } from 'primeng/dialog';
+import { CartComponent } from './pages/cart/cart.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,6 +66,7 @@ import { InputTextModule } from 'primeng/inputtext';
     SignupComponent,
     SigninComponent,
     DetailProductsComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,7 +83,17 @@ import { InputTextModule } from 'primeng/inputtext';
     PaginatorModule,
     TabViewModule,
     RatingModule,
-    InputTextModule
+    InputTextModule,
+    TableModule,
+    FileUploadModule,
+    RippleModule,
+    ToastModule,
+    DialogModule,
+    RadioButtonModule,
+    DropdownModule,
+    InputTextareaModule,
+    ToolbarModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

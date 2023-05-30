@@ -1,16 +1,17 @@
-
 <!-- ========main=========== -->
 <main>
-    <div class="container" >
+    <div class="container">
         <!-- ======== New Collection=========== -->
-        <div  class="conllection-homePage row " >
+        <div class="conllection-homePage row ">
             <div class="col-md-6">
                 <img src="../../../assets/new-collection-furniture-img.jpg" width="100%" alt="">
             </div>
             <div class="col-md-6 text-collection">
                 <p class="title-and-style">NEW COLLECTION</p>
                 <h2>A Perfect Set For Your Living Room</h2>
-                <p>Massa cras egestas laoreet montes, dapibus eu sit etiam curabitur faucibus habitasse lectus vestibulum leo, odio dolor quis maecenas faucibus vulputate pharetra nunc sed maecenas diam quisque habitasse.</p>
+                <p>Massa cras egestas laoreet montes, dapibus eu sit etiam curabitur faucibus habitasse lectus
+                    vestibulum leo, odio dolor quis maecenas faucibus vulputate pharetra nunc sed maecenas diam quisque
+                    habitasse.</p>
                 <button class="btn"> SHOP THIS COLLECTION</button>
             </div>
 
@@ -19,12 +20,14 @@
         <div class="list-products">
             <div class="row" *ngIf="products && products.length >0">
                 <div class="col-md-4 col-lg-3 col-sm-6 col-12 item-products" *ngFor="let product of products">
-                    <img width="100%" src="{{product.img}}" alt="">
-                    <p class="category-title">
-                        {{product.category}}
-                    </p>
-                    <p class="name-products">{{product.name}}</p>
-                    <p class="price-products"><del>${{product.price}}</del>${{product.priceOriginal}}</p>
+                    <a style="text-decoration: none;" routerLink="/page/products/detail/{{product.id}}">
+                        <img width="100%" src="{{product.img}}" alt="">
+                        <p class="category-title">
+                            {{product.category}}
+                        </p>
+                        <p class="name-products">{{product.name}}</p>
+                        <p class="price-products"><del>${{product.price}}</del>${{product.priceOriginal}}</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -33,7 +36,8 @@
     <div class="container-fluid">
         <div class="row category-room-list">
             <div class="col-md-4 col-lg-3 col-sm-6 col-12  bg-category-room1">
-                <a class="link-category-home" routerLink="/page/products">Living Room<i class='bx bxs-hand-right'></i></a>
+                <a class="link-category-home" routerLink="/page/products">Living Room<i
+                        class='bx bxs-hand-right'></i></a>
             </div>
             <div class="col-md-4 col-lg-3 col-sm-6 col-12  bg-category-room2">
                 <a class="link-category-home" routerLink="/page/products">Bedroom <i class='bx bxs-hand-right'></i></a>
@@ -42,18 +46,19 @@
                 <a class="link-category-home" routerLink="/page/products">Kitchen <i class='bx bxs-hand-right'></i></a>
             </div>
             <div class="col-md-4 col-lg-3 col-sm-6 col-12  bg-category-room4">
-                <a class="link-category-home" routerLink="/page/products">Bath Room <i class='bx bxs-hand-right'></i></a>
+                <a class="link-category-home" routerLink="/page/products">Bath Room <i
+                        class='bx bxs-hand-right'></i></a>
             </div>
-            
+
         </div>
     </div>
     <!-- ===========Best Seller============= -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-collection">
-                    <p class="title-and-style">BEST SELLER</p>
-                    <h2>Discover Our <br> <br>
-                        Most Selling Products</h2>
+                <p class="title-and-style">BEST SELLER</p>
+                <h2>Discover Our <br> <br>
+                    Most Selling Products</h2>
             </div>
             <div class="col-md-6 right-best-seller">
                 <a routerLink="page/products"><button class="btn">VIEW ALL BEST SELLER</button></a>
@@ -63,15 +68,16 @@
         <app-products-list></app-products-list>
     </div>
     <!-- ========SALE UP TO 50%======= -->
-    <div class="container">
+    <div class="container mt-5">
         <div class="sale-of-homePage">
             <div class="text-sale-of row">
-               <div class="left-text-sale-of col-lg-5">
-                <h2>Sales up to 50% OFF</h2>
-                <p>Molestie amet tempor, diam id magna ridiculus tincidunt cursus curabitur non ipsum mattis in vel venenatis nam enim facilisis mi, egestas metus, nunc at.</p>
-                <a href=""><button class="btn">SHOP NOW <i class='bx bxs-hand-right'></i></button></a>
-               </div>
-               <div class="col-md-7"></div>
+                <div class="left-text-sale-of col-lg-5">
+                    <h2>Sales up to 50% OFF</h2>
+                    <p>Molestie amet tempor, diam id magna ridiculus tincidunt cursus curabitur non ipsum mattis in vel
+                        venenatis nam enim facilisis mi, egestas metus, nunc at.</p>
+                    <a routerLink="/page/products"><button class="btn">SHOP NOW <i class='bx bxs-hand-right'></i></button></a>
+                </div>
+                <div class="col-md-7"></div>
             </div>
         </div>
     </div>
@@ -79,8 +85,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-collection">
-                    <p class="title-and-style">TESTIMONIALS</p>
-                    <h2>What People Say</h2>
+                <p class="title-and-style">TESTIMONIALS</p>
+                <h2>What People Say</h2>
             </div>
             <div class="col-md-6 right-best-seller">
                 <a routerLink="page/products"><button class="btn">VIEW ALL TESTIMONIALS</button></a>
@@ -93,8 +99,9 @@
                     <div class="row">
                         <div class="col-12 col-md-5"><img src="../../../assets/cuongdz.jpg" width="80%" alt=""></div>
                         <div class="col-12 col-md-7">
-                            <p><i class='bx bxs-quote-right bx-flip-horizontal' ></i></p>
-                            <p>Cả đời tôi chưa bao giờ nhìn thấy web nào đẹp như này. Chưa kể người viết web này còn đẹp trai khoai to mới sợ nữa chứ. Anh ý xứng đáng có được tôi.</p>
+                            <p><i class='bx bxs-quote-right bx-flip-horizontal'></i></p>
+                            <p>Cả đời tôi chưa bao giờ nhìn thấy web nào đẹp như này. Chưa kể người viết web này còn đẹp
+                                trai khoai to mới sợ nữa chứ. Anh ý xứng đáng có được tôi.</p>
                             <p class="name-user-test">MCUONG ENTERTAIMENT</p>
                         </div>
                     </div>
@@ -103,8 +110,9 @@
                     <div class="row">
                         <div class="col-12 col-md-5"><img src="../../../assets/hieuysl.jpg" width="80%" alt=""></div>
                         <div class="col-12 col-md-7 ">
-                            <p><i class='bx bxs-quote-right bx-flip-horizontal' ></i></p>
-                            <p>Tôi là trợ lý của thằng bên cạnh. Cũng không phải nịnh chứ MCuong đã đẹp trai lại còn hát hay, body 6 múi các thứ. người như anh ấy xứng đáng có chục em người yêu!</p>
+                            <p><i class='bx bxs-quote-right bx-flip-horizontal'></i></p>
+                            <p>Tôi là trợ lý của thằng bên cạnh. Cũng không phải nịnh chứ MCuong đã đẹp trai lại còn hát
+                                hay, body 6 múi các thứ. người như anh ấy xứng đáng có chục em người yêu!</p>
                             <p class="name-user-test">HIEU PC</p>
                         </div>
                     </div>
@@ -116,8 +124,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-collection">
-                    <p class="title-and-style">IF YOU WONDER</p>
-                    <h2>Why Choose Us</h2>
+                <p class="title-and-style">IF YOU WONDER</p>
+                <h2>Why Choose Us</h2>
             </div>
             <div class="col-md-6 right-best-seller">
             </div>
@@ -137,13 +145,13 @@
             </div>
             <div class="col-lg-3 col-md-4 col-12 col-sm-6 item-why-choese">
                 <img src="../../../assets/why-03.png" alt="">
-                <p>Secure Payments                </p>
-                <p>Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci viverra, cursus justo.                </p>
+                <p>Secure Payments </p>
+                <p>Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci viverra, cursus justo. </p>
             </div>
             <div class="col-lg-3  col-md-4 col-12 col-sm-6 item-why-choese">
                 <img src="../../../assets/why-04.png" alt="">
                 <p>Order Tracking </p>
-                <p>Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci viverra, cursus justo.                </p>
+                <p>Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci viverra, cursus justo. </p>
             </div>
         </div>
     </div>

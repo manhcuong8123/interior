@@ -30,7 +30,9 @@ export class ProductsComponent {
   ];
   // products: IProducts[] = [];
   // ngOnInit(): void {
+
   //   // Code thiết lập khi component được khởi tạo
+
   //   this.productservice.getAll().subscribe(data => {
   //     this.products = data;
   //   })

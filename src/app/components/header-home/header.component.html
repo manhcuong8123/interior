@@ -62,24 +62,15 @@
         <div class="col-md-7">
           <div class="flex-auto">
             <label class="mb-2 block font-bold" for="horizontal">Name Products</label>
-            <p-inputNumber
-                [(ngModel)]="value3"
-                [showButtons]="true"
-                buttonLayout="horizontal"
-                inputId="horizontal"
-                spinnerMode="horizontal"
-                [step]="1"
-                [min]="0"
-                decrementButtonClass="p-button-custom"
-                incrementButtonClass="p-button-custom"
-                incrementButtonIcon="bx bx-plus"
-                decrementButtonIcon="bx bx-minus"
-            ></p-inputNumber>
-        </div>
+            <p-inputNumber [(ngModel)]="value3" [showButtons]="true" buttonLayout="horizontal" inputId="horizontal"
+              spinnerMode="horizontal" [step]="1" [min]="0" decrementButtonClass="p-button-custom"
+              incrementButtonClass="p-button-custom" incrementButtonIcon="bx bx-plus"
+              decrementButtonIcon="bx bx-minus"></p-inputNumber>
+          </div>
         </div>
         <div class="col-md-3">
           <button class="btn btn-circle-border"><i class="bx bx-x"></i></button>
-        <p>100.00$</p>
+          <p>100.00$</p>
         </div>
       </div>
     </div>
@@ -89,12 +80,12 @@
         <p>100.00$</p>
       </div>
       <p class="btn-footer-cart">
-        <a routerLink="/page/cart"> <button class="btn">VIEW CART</button></a>
-
+        <button class="btn" routerLink="/page/cart">VIEW CART</button>
       </p>
       <p class="btn-footer-cart">
-        <a routerLink=""> <button class="btn">CHECKOUT</button></a>
+        <button routerLink="" class="btn">CHECKOUT</button>
 
       </p>
     </ng-template>
   </p-sidebar>
+</div>

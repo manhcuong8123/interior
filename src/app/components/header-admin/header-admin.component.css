@@ -1,0 +1,37 @@
+.border-header-homePage{
+    box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.339);
+}
+:host ::ng-deep .p-button {
+    background-color: #edb932;
+    border: none;
+    outline: none;
+}
+
+:host ::ng-deep .p-button:hover {
+    background-color: #a77905;
+    border: none;
+    outline: none;
+}
+
+.style-header-admin {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.icon-header i {
+    font-size: 20px;
+    color: rgb(144, 144, 144);
+    margin: 0 10px;
+}
+
+.left-header li {
+    list-style: none;
+    padding: 10px;
+}
+
+.left-header li a, .dash-home-sidebar a {
+    text-decoration: none;
+    color: black;
+    
+}

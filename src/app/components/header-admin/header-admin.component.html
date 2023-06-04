@@ -1,0 +1,39 @@
+<div class="border-header-homePage">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <div class="style-header-admin">
+                    <a class="navbar-brand" routerLink=""><img src="../../../assets/HC-logo.png" width="70px"
+                            alt=""></a>
+                    <div>
+
+                        <p-button type="button" class="mr-2" (click)="sidebarVisible1 = true"
+                            icon="bx bx-menu-alt-left"></p-button>
+
+                    </div>
+                </div>
+                <div class="icon-header">
+                    <i class='bx bxs-calendar-alt' ></i>
+                    <i class='bx bxs-user' ></i>
+                    <i class='bx bxs-cog' ></i>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+<p-sidebar [(visible)]="sidebarVisible1" position="left">
+    <h1>Home</h1>
+    <p class="dash-home-sidebar" style="margin-left: 30px;"><a routerLink="/admin"><i class='bx bxs-dashboard' ></i> Dashboard</a></p>
+    <p class="dash-home-sidebar" style="margin-left: 30px;"><a routerLink="/"> <i class='bx bxs-home'></i> Home Client</a></p>
+    <h1>Page</h1>
+        <ul class="left-header">
+            <li><a routerLink="/page/products"><i class='bx bx-list-ul' ></i>  List Products</a></li>
+            <li><a routerLink="/page/products"> <i class='bx bxs-hot' ></i> List Products Best Seller</a></li>
+            <li><a routerLink="/page/products"> <i class='bx bxs-category' ></i> List Category</a></li>
+            <li><a routerLink="/page/products"> <i class='bx bxs-user-badge' ></i> List User</a></li>
+
+        </ul>
+</p-sidebar>

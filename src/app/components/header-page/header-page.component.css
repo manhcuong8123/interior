@@ -51,7 +51,7 @@
     justify-content: space-between;
     padding: 10px 20px ;
 }
-.btn-footer-cart {
+.btn-footer-cart button {
     background-color: #edb932;
     width: 100%;
     text-align: center;

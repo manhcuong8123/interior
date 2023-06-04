@@ -31,11 +31,8 @@ import { PaginatorModule } from 'primeng/paginator';
 import { TabViewModule } from 'primeng/tabview';
 import { RatingModule } from 'primeng/rating';
 import { InputTextModule } from 'primeng/inputtext';
-
-
-
+import { ScrollerModule } from 'primeng/scroller';
 import { CommonModule } from '@angular/common';
-// import { CrudComponent } from './crud.component';
 import { TableModule } from 'primeng/table';
 import { FileUploadModule } from 'primeng/fileupload';
 import { RippleModule } from 'primeng/ripple';
@@ -46,7 +43,10 @@ import { DropdownModule } from 'primeng/dropdown';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { DialogModule } from 'primeng/dialog';
 import { CartComponent } from './pages/cart/cart.component';
-
+import { HeaderAdminComponent } from './components/header-admin/header-admin.component';
+import { TreeTableModule } from 'primeng/treetable';
+import { TagModule } from 'primeng/tag';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,6 +67,7 @@ import { CartComponent } from './pages/cart/cart.component';
     SigninComponent,
     DetailProductsComponent,
     CartComponent,
+    HeaderAdminComponent,
   ],
   imports: [
     BrowserModule,
@@ -92,7 +93,12 @@ import { CartComponent } from './pages/cart/cart.component';
     RadioButtonModule,
     DropdownModule,
     InputTextareaModule,
-    ToolbarModule
+    ToolbarModule,
+    ScrollerModule ,
+    TreeTableModule,
+    CommonModule,
+    TagModule,
+    ConfirmDialogModule
 
   ],
   providers: [],

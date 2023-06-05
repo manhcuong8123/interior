@@ -7,12 +7,8 @@ export interface IProducts{
     priceOriginal?:number,
     img:string,
 }
-interface InventoryStatus {
-    label: string;
-    value: string;
-}
 export interface Product {
-    id?: string;
+    _id?: string;
     code?: string;
     name?: string;
     description?: string;
@@ -20,6 +16,9 @@ export interface Product {
     quantity?: number;
     inventoryStatus?: string;
     category?: string;
+    priceOriginal?:number,
     image?: string;
+    title?:string,
     rating?: number;
+    img?:string;
 }

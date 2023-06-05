@@ -28,17 +28,6 @@ export class ProductsComponent {
     { _id: 15, name: 'Wooden Console Table', price: 45, category: 'Bedroom', img: 'https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/wooden-console-table-400x400.png', priceOriginal: 14 },
     { _id: 16, name: 'Beige Working Chair With Armrest', price: 23, category: 'Home Office', img: 'https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/working-chair-with-armrest-400x400.png', priceOriginal: 50 },
   ];
-  // products: IProducts[] = [];
-  // ngOnInit(): void {
-
-  //   // Code thiết lập khi component được khởi tạo
-
-  //   this.productservice.getAll().subscribe(data => {
-  //     this.products = data;
-  //   })
-  // }
-
-
 
   sidebarVisible: boolean = false;
   checked: boolean = false;

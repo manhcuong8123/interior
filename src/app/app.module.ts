@@ -47,6 +47,7 @@ import { HeaderAdminComponent } from './components/header-admin/header-admin.com
 import { TreeTableModule } from 'primeng/treetable';
 import { TagModule } from 'primeng/tag';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
+import { ImageModule } from 'primeng/image';
 @NgModule({
   declarations: [
     AppComponent,
@@ -98,7 +99,8 @@ import { ConfirmDialogModule } from 'primeng/confirmdialog';
     TreeTableModule,
     CommonModule,
     TagModule,
-    ConfirmDialogModule
+    ConfirmDialogModule,
+    ImageModule
 
   ],
   providers: [],

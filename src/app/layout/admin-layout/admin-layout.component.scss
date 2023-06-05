@@ -56,6 +56,24 @@
     background-color: transparent !important;
     width: 0px;
 }
+.form-add input{
+    border: 1px solid #f9e195;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    margin: 10px 0;
+}
+.form-add textarea{
+    border: 1px solid #efbe44;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 0;
+
+}
+
+
 @media (max-width: 768px) {
     .admin-dashboard{
         display: none;

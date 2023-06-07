@@ -7,9 +7,35 @@
     background-image: linear-gradient(to right, #000000a1, #000000a1), url(../../../assets/bg-header-home.jpg);
 }
 
-.user-profile {
-    background: #000;
+.card-user {
+    background: transparent;
+    margin-left: 10px;
 }
+
+.no-user-profile {
+    margin-left: 20px;
+}
+
+
+
+.no-user-profile button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* .user-profile {
+    margin-left: 20px;
+    background: #f3f2f2;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.user-profile a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+} */
 
 
 .border-header-homePage {

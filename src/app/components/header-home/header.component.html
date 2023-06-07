@@ -36,7 +36,10 @@
                 <!-- đoạn này khi có user trong local -->
                 <ng-container *ngIf="user; else noUserTemplate">
                   <div class="user-profile">
-                    <a routerLink="/page/user/id">{{ user.name | slice:0:1 }}</a>
+                    <div class="card-user flex justify-content-center gap-2">
+                      <p-avatar class="card-user-name" label="{{ user.name | slice:0:1 }}" shape="circle"></p-avatar>
+                    </div>
+
                   </div>
                 </ng-container>
                 <!-- khi có user trong local nhé -->
@@ -44,7 +47,8 @@
                 <!-- đoạn này khi không có user trong local -->
                 <ng-template #noUserTemplate>
                   <div class="no-user-profile">
-                    <a routerLink="/vippro/signin">Signin</a>
+                    <button type="button" class="btn btn-outline-warning"> <a
+                        routerLink="/vippro/signin">Signin</a></button>
                   </div>
                 </ng-template>
                 <!-- khi không có user trong local nhé -->

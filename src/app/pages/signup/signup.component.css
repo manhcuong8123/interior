@@ -1,42 +1,34 @@
-.title {
-    position: relative;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    padding-left: 170px;
+h2 {
+    width: 100%;
+    margin-top: 50px;
 }
 
-.title h2 {
+.card {
+    border: none;
+    width: 90%;
+}
+
+.card span input {
+    width: 100%;
+}
+
+.error-message {
+    color: rgb(239, 103, 103);
+}
+
+.card-btn {
     text-align: center;
-    position: absolute;
-    color: #fff;
-    transform: translate(-50%, -50%);
-    font-size: 2.9rem;
-    font-weight: 700;
 }
 
-.title h2:nth-child(1) {
-    color: transparent;
-    -webkit-text-stroke: 2px #707274;
+.p-button-success {
+    background-color: #d4ba7e;
+    border: #dbceaf;
+    color: #000;
 }
 
-.title h2:nth-child(2) {
-    color: #03a9f4;
-    animation: animate 4s ease-in-out infinite;
-}
-
-@keyframes animate {
-
-    0%,
-    100% {
-        clip-path: polygon(31% 54%, 48% 61%, 68% 63%, 82% 59%, 100% 51%, 100% 99%, 0 100%, 0 46%, 14% 46%);
-    }
-
-    50% {
-        clip-path: polygon(33% 71%, 49% 66%, 65% 56%, 80% 53%, 100% 54%, 100% 99%, 0 100%, 0 61%, 17% 68%);
-    }
+.card-btn button:hover {
+    background-color: #987d3e;
+    border: #c18d14;
 }
 
 .signup {

@@ -48,6 +48,10 @@ import { TreeTableModule } from 'primeng/treetable';
 import { TagModule } from 'primeng/tag';
 import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ImageModule } from 'primeng/image';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AvatarModule } from 'primeng/avatar';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -95,12 +99,14 @@ import { ImageModule } from 'primeng/image';
     DropdownModule,
     InputTextareaModule,
     ToolbarModule,
-    ScrollerModule ,
+    ScrollerModule,
     TreeTableModule,
     CommonModule,
     TagModule,
     ConfirmDialogModule,
-    ImageModule
+    ImageModule,
+    ReactiveFormsModule,
+    AvatarModule
 
   ],
   providers: [],

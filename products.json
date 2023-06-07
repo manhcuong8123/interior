@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "name": "Bathroom Golden Ring Mirror",
+      "price": 28,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/bathroom-circle-mirror.png",
+      "priceOriginal": 25,
+      "category": "Kitchen",
+      "title": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.",
+      "_id": "1"
+    },
+    {
+      "name": "Bathroom Wooden Table",
+      "price": 17,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/bathroom-wooden-table.png",
+      "priceOriginal": 47,
+      "category": "Bathroom",
+      "title": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.",
+      "_id": "2"
+    },
+    {
+      "name": "Bedroom Single Chair",
+      "price": 51,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/bedroom-single-chair.png",
+      "priceOriginal": 14,
+      "category": "Chair",
+      "title": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.",
+      "_id": "3"
+    },
+    {
+      "name": "Beige Working Chair With Armrest",
+      "price": 39,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/working-chair-with-armrest.png",
+      "priceOriginal": 21,
+      "category": "Home Office",
+      "title": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.",
+      "_id": "4"
+    },
+    {
+      "name": "Black Metal Lamp",
+      "price": 58,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/black-metal-lamp.png",
+      "priceOriginal": 75,
+      "category": "Home Office",
+      "title": "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed.",
+      "_id": "5"
+    },
+    {
+      "name": "Blue Comfy Fabric Chair",
+      "price": 61,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/single-blue-fabric-chair-1.png",
+      "priceOriginal": 48,
+      "category": "Bedroom",
+      "title": "Habitasse eaque wisi molestie, mollis pharetra convallis exercitation, distinctio eu arcu fugit nibh donec exercitationem, quisque imperdiet mattis proident cupiditate habitant assumenda.",
+      "_id": "6"
+    },
+    {
+      "name": "Brown Circle Stool",
+      "price": 12,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/brown-wooden-stool.png",
+      "priceOriginal": 83,
+      "category": "Stool",
+      "title": "Nemo malesuada animi consectetur, cras consectetuer laborum tenetur, cum, lacus nemo imperdiet facilisis! Aute metus, lorem primis anim. Eros dolorem.",
+      "_id": "7"
+    },
+    {
+      "name": "Brown Living Room Sofa",
+      "price": 87,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/living-room-brown-sofa.png",
+      "priceOriginal": 23,
+      "category": "Sofa",
+      "title": "Nemo malesuada animi consectetur, cras consectetuer laborum tenetur, cum, lacus nemo imperdiet facilisis! Aute metus, lorem primis anim. Eros dolorem.",
+      "_id": "8"
+    },
+    {
+      "name": "Ceramic Oval Bathtub",
+      "price": 57,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/cream-ceramic-oval-bathtub.png",
+      "priceOriginal": 2,
+      "category": "Bathroom",
+      "title": "Nemo malesuada animi consectetur, cras consectetuer laborum tenetur, cum, lacus nemo imperdiet facilisis! Aute metus, lorem primis anim. Eros dolorem.",
+      "_id": "9"
+    },
+    {
+      "name": "Egyptian Vase",
+      "price": 27,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/egyptian-brown-vase.png",
+      "priceOriginal": 45,
+      "category": "Living Room",
+      "title": "Nemo malesuada animi consectetur, cras consectetuer laborum tenetur, cum, lacus nemo imperdiet facilisis! Aute metus, lorem primis anim. Eros dolorem.",
+      "_id": "10"
+    },
+    {
+      "name": "Green Living Room Sofa",
+      "price": 69,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/living-room-green-sofa.png",
+      "priceOriginal": 52,
+      "category": " Sofa",
+      "title": "Nemo malesuada animi consectetur, cras consectetuer laborum tenetur, cum, lacus nemo imperdiet facilisis! Aute metus, lorem primis anim. Eros dolorem.",
+      "_id": "11"
+    },
+    {
+      "name": "King Size Master Bedroom",
+      "price": 60,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/king-size-master-bedroom.png",
+      "priceOriginal": 92,
+      "category": "Bedroom",
+      "title": "Nemo malesuada animi consectetur, cras consectetuer laborum tenetur, cum, lacus nemo imperdiet facilisis! Aute metus, lorem primis anim. Eros dolorem.",
+      "_id": "12"
+    },
+    {
+      "name": "Kitchen Cabinet",
+      "price": 31,
+      "img": "https://websitedemos.net/home-decor-04/wp-content/uploads/sites/644/2020/08/kitchen-furniture-cabinet.png",
+      "priceOriginal": 86,
+      "category": "Kitchen",
+      "title": "Nemo malesuada animi consectetur, cras consectetuer laborum tenetur, cum, lacus nemo imperdiet facilisis! Aute metus, lorem primis anim. Eros dolorem.",
+      "_id": "13"
+    }
+  ]
+}

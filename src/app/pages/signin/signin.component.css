@@ -1,41 +1,15 @@
-.title {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    padding-left: 150px;
+h2 {
+    width: 100%;
+    margin-top: 50px;
 }
 
-.title h2 {
-    position: absolute;
-    color: #fff;
-    transform: translate(-50%, -50%);
-    font-size: 2.9rem;
-    font-weight: 700;
-    text-align: center;
+.card {
+    border: none;
+    width: 90%;
 }
 
-.title h2:nth-child(1) {
-    color: transparent;
-    -webkit-text-stroke: 2px #707274;
-}
-
-.title h2:nth-child(2) {
-    color: #03a9f4;
-    animation: animate 4s ease-in-out infinite;
-}
-
-@keyframes animate {
-
-    0%,
-    100% {
-        clip-path: polygon(31% 54%, 48% 61%, 68% 63%, 82% 59%, 100% 51%, 100% 99%, 0 100%, 0 46%, 14% 46%);
-    }
-
-    50% {
-        clip-path: polygon(33% 71%, 49% 66%, 65% 56%, 80% 53%, 100% 54%, 100% 99%, 0 100%, 0 61%, 17% 68%);
-    }
+.card span input {
+    width: 100%;
 }
 
 .signin {
@@ -44,8 +18,13 @@
     align-items: center;
 }
 
+.error-message {
+    color: rgb(239, 103, 103);
+}
+
 .pass-up {
-    padding-left: 30px;
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
@@ -54,9 +33,30 @@
     justify-content: center;
 }
 
+.pass-up-forgot a {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
 .pass-up-register {
+
     display: flex;
     justify-content: center;
+}
+
+.p-button-success {
+    background-color: #d4ba7e;
+    border: #dbceaf;
+    color: #000;
+}
+
+.card-btn button:hover {
+    background-color: #987d3e;
+    border: #c18d14;
+}
+
+.form-check {
+    width: 100%;
 }
 
 .btn-icon {
@@ -78,6 +78,10 @@
 .btn-icon:hover {
     background-color: #dbceaf;
     transition: 1s;
+}
+
+.divider {
+    width: 100%;
 }
 
 .divider:after,

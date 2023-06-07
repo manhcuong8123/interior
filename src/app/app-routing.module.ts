@@ -11,6 +11,7 @@ import { SigninComponent } from './pages/signin/signin.component';
 import { DetailProductsComponent } from './pages/detail-products/detail-products.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { AuthGuard } from './guard/auth.guard';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,7 +22,7 @@ const routes: Routes = [
       { path: 'signup', component: SignupComponent },
     ]
   },
-  { path: 'admin', component: AdminLayoutComponent },
+  { path: 'admin', component: AdminLayoutComponent, canActivate: [AuthGuard] },
 
   {
     path: 'page', component: ClientLayoutComponent, children: [
@@ -29,10 +30,10 @@ const routes: Routes = [
       { path: 'products/detail/:id', component: DetailProductsComponent },
       { path: 'about', component: AboutComponent },
       { path: 'contact', component: ContactComponent },
-      {path: 'cart', component: CartComponent}
+      { path: 'cart', component: CartComponent }
     ]
   },
-  {path: 'admin', component: AdminLayoutComponent},
+  { path: 'admin', component: AdminLayoutComponent },
   { path: '**', component: NotFoundComponent }
 
 ];

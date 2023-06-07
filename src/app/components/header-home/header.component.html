@@ -31,6 +31,25 @@
                   <span class="cart-header"><i class='text-white bx bxs-cart-alt'></i></span>
                 </p-button>
               </li>
+              <!-- Cường đz Nhớ css nhé -->
+              <li>
+                <!-- đoạn này khi có user trong local -->
+                <ng-container *ngIf="user; else noUserTemplate">
+                  <div class="user-profile">
+                    <a routerLink="/page/user/id">{{ user.name | slice:0:1 }}</a>
+                  </div>
+                </ng-container>
+                <!-- khi có user trong local nhé -->
+
+                <!-- đoạn này khi không có user trong local -->
+                <ng-template #noUserTemplate>
+                  <div class="no-user-profile">
+                    <a routerLink="/vippro/signin">Signin</a>
+                  </div>
+                </ng-template>
+                <!-- khi không có user trong local nhé -->
+              </li>
+              <!-- ok nhé -->
             </ul>
 
           </div>

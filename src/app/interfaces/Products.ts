@@ -8,17 +8,17 @@ export interface IProducts{
     img:string,
 }
 export interface Product {
-    _id?: string;
+    id?: string;
     code?: string;
     name?: string;
-    description?: string;
     price?: number;
     quantity?: number;
-    inventoryStatus?: string;
     category?: string;
     priceOriginal?:number,
-    image?: string;
     title?:string,
-    rating?: number;
     img?:string;
+    image?: string;
+    rating?: number;
+    inventoryStatus?: string;
+    description?: string;
 }

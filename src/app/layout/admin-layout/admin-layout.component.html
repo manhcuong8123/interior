@@ -56,7 +56,9 @@
                     <td>
                         <p-tableCheckbox [value]="product"></p-tableCheckbox>
                     </td>
-                    <td>{{ product.name }}</td>
+                    <td>
+                        <a style="text-decoration: none; color: black;" routerLink="/page/products/detail/{{product.id}}">{{ product.name }}</a>
+                    </td>
                     <td>
 
                         <p-image src="{{ product.img}}"
